@@ -1,6 +1,6 @@
 ### What's it?
 
-CDWordList is a prefix trie that loads in a list of words from a file, and can determine if a given input string matches any string in that file. Use for word games etc.
+CDWordList is a prefix trie that loads in a list of words from a file, and can determine if a given input string matches any string in that file. ASCII only. Use for word games etc.
 
 ### How to
 
