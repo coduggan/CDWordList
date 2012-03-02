@@ -13,7 +13,7 @@ CDWordList is a prefix trie that loads in a list of words from a file, and can d
 	#pragma mark - CDWordList methods
 	- (BOOL)isWord:(NSString*)word;
 
-**Examples
+**Examples**
 
   /* Create a CDWordList object from word_list.txt in the main bundle of the app. The included English Open Word List (EOWL) contains about 128k words.
 
@@ -22,7 +22,7 @@ CDWordList is a prefix trie that loads in a list of words from a file, and can d
   [wordList isWord:@"irregardless"]; //returns NO
 	[wordList isWord:@"regardless"]; //returns YES
 	
-**Word list
+**Word list**
 
 The included word list is the English Open Word List (EOWL).
 
