@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93BD090B150106D10014AA63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BD090A150106D10014AA63 /* UIKit.framework */; };
+		93BD090D150106D10014AA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BD090C150106D10014AA63 /* Foundation.framework */; };
+		93BD090F150106D10014AA63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BD090E150106D10014AA63 /* CoreGraphics.framework */; };
+		93BD0915150106D10014AA63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93BD0913150106D10014AA63 /* InfoPlist.strings */; };
+		93BD0917150106D10014AA63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD0916150106D10014AA63 /* main.m */; };
+		93BD091B150106D10014AA63 /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD091A150106D10014AA63 /* CDAppDelegate.m */; };
+		93BD091E150106D10014AA63 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD091D150106D10014AA63 /* CDViewController.m */; };
+		93BD0921150106D10014AA63 /* CDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BD091F150106D10014AA63 /* CDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93BD0906150106D10014AA63 /* CDWordListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDWordListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BD090A150106D10014AA63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93BD090C150106D10014AA63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93BD090E150106D10014AA63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93BD0912150106D10014AA63 /* CDWordListDemo-Info.plist */ = {isa = PBXFileReference; path = "CDWordListDemo-Info.plist"; sourceTree = "<group>"; };
+		93BD0914150106D10014AA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93BD0916150106D10014AA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93BD0918150106D10014AA63 /* CDWordListDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CDWordListDemo-Prefix.pch"; sourceTree = "<group>"; };
+		93BD0919150106D10014AA63 /* CDAppDelegate.h */ = {isa = PBXFileReference; path = CDAppDelegate.h; sourceTree = "<group>"; };
+		93BD091A150106D10014AA63 /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
+		93BD091C150106D10014AA63 /* CDViewController.h */ = {isa = PBXFileReference; path = CDViewController.h; sourceTree = "<group>"; };
+		93BD091D150106D10014AA63 /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
+		93BD0920150106D10014AA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BD0903150106D10014AA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BD090B150106D10014AA63 /* UIKit.framework in Frameworks */,
+				93BD090D150106D10014AA63 /* Foundation.framework in Frameworks */,
+				93BD090F150106D10014AA63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93BD08FB150106D10014AA63 = {
+			isa = PBXGroup;
+			children = (
+				93BD0910150106D10014AA63 /* CDWordListDemo */,
+				93BD0909150106D10014AA63 /* Frameworks */,
+				93BD0907150106D10014AA63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93BD0907150106D10014AA63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BD0906150106D10014AA63 /* CDWordListDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93BD0909150106D10014AA63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93BD090A150106D10014AA63 /* UIKit.framework */,
+				93BD090C150106D10014AA63 /* Foundation.framework */,
+				93BD090E150106D10014AA63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93BD0910150106D10014AA63 /* CDWordListDemo */ = {
+			isa = PBXGroup;
+			children = (
+				93BD0919150106D10014AA63 /* CDAppDelegate.h */,
+				93BD091A150106D10014AA63 /* CDAppDelegate.m */,
+				93BD091C150106D10014AA63 /* CDViewController.h */,
+				93BD091D150106D10014AA63 /* CDViewController.m */,
+				93BD091F150106D10014AA63 /* CDViewController.xib */,
+				93BD0911150106D10014AA63 /* Supporting Files */,
+			);
+			path = CDWordListDemo;
+			sourceTree = "<group>";
+		};
+		93BD0911150106D10014AA63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93BD0912150106D10014AA63 /* CDWordListDemo-Info.plist */,
+				93BD0913150106D10014AA63 /* InfoPlist.strings */,
+				93BD0916150106D10014AA63 /* main.m */,
+				93BD0918150106D10014AA63 /* CDWordListDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BD0905150106D10014AA63 /* CDWordListDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BD0924150106D10014AA63 /* Build configuration list for PBXNativeTarget "CDWordListDemo" */;
+			buildPhases = (
+				93BD0902150106D10014AA63 /* Sources */,
+				93BD0903150106D10014AA63 /* Frameworks */,
+				93BD0904150106D10014AA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDWordListDemo;
+			productName = CDWordListDemo;
+			productReference = 93BD0906150106D10014AA63 /* CDWordListDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BD08FD150106D10014AA63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 93BD0900150106D10014AA63 /* Build configuration list for PBXProject "CDWordListDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93BD08FB150106D10014AA63;
+			productRefGroup = 93BD0907150106D10014AA63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BD0905150106D10014AA63 /* CDWordListDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BD0904150106D10014AA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BD0915150106D10014AA63 /* InfoPlist.strings in Resources */,
+				93BD0921150106D10014AA63 /* CDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BD0902150106D10014AA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BD0917150106D10014AA63 /* main.m in Sources */,
+				93BD091B150106D10014AA63 /* CDAppDelegate.m in Sources */,
+				93BD091E150106D10014AA63 /* CDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93BD0913150106D10014AA63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BD0914150106D10014AA63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93BD091F150106D10014AA63 /* CDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BD0920150106D10014AA63 /* en */,
+			);
+			name = CDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93BD0922150106D10014AA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93BD0923150106D10014AA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93BD0925150106D10014AA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDWordListDemo/CDWordListDemo-Prefix.pch";
+				INFOPLIST_FILE = "CDWordListDemo/CDWordListDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93BD0926150106D10014AA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDWordListDemo/CDWordListDemo-Prefix.pch";
+				INFOPLIST_FILE = "CDWordListDemo/CDWordListDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BD0900150106D10014AA63 /* Build configuration list for PBXProject "CDWordListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BD0922150106D10014AA63 /* Debug */,
+				93BD0923150106D10014AA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BD0924150106D10014AA63 /* Build configuration list for PBXNativeTarget "CDWordListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BD0925150106D10014AA63 /* Debug */,
+				93BD0926150106D10014AA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BD08FD150106D10014AA63 /* Project object */;
+}
