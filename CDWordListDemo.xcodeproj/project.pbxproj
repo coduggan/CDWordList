@@ -15,6 +15,10 @@
 		93BD091B150106D10014AA63 /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD091A150106D10014AA63 /* CDAppDelegate.m */; };
 		93BD091E150106D10014AA63 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD091D150106D10014AA63 /* CDViewController.m */; };
 		93BD0921150106D10014AA63 /* CDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BD091F150106D10014AA63 /* CDViewController.xib */; };
+		93BD0933150107080014AA63 /* CDRootCharacterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD092E150107080014AA63 /* CDRootCharacterNode.m */; };
+		93BD0934150107080014AA63 /* CDCharacterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD0930150107080014AA63 /* CDCharacterNode.m */; };
+		93BD0935150107080014AA63 /* CDWordList.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BD0932150107080014AA63 /* CDWordList.m */; };
+		93BD096F15010B450014AA63 /* word_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93BD096E15010B450014AA63 /* word_list.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,22 @@
 		93BD090A150106D10014AA63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		93BD090C150106D10014AA63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93BD090E150106D10014AA63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		93BD0912150106D10014AA63 /* CDWordListDemo-Info.plist */ = {isa = PBXFileReference; path = "CDWordListDemo-Info.plist"; sourceTree = "<group>"; };
+		93BD0912150106D10014AA63 /* CDWordListDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDWordListDemo-Info.plist"; sourceTree = "<group>"; };
 		93BD0914150106D10014AA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93BD0916150106D10014AA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93BD0918150106D10014AA63 /* CDWordListDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CDWordListDemo-Prefix.pch"; sourceTree = "<group>"; };
-		93BD0919150106D10014AA63 /* CDAppDelegate.h */ = {isa = PBXFileReference; path = CDAppDelegate.h; sourceTree = "<group>"; };
+		93BD0918150106D10014AA63 /* CDWordListDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDWordListDemo-Prefix.pch"; sourceTree = "<group>"; };
+		93BD0919150106D10014AA63 /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
 		93BD091A150106D10014AA63 /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
-		93BD091C150106D10014AA63 /* CDViewController.h */ = {isa = PBXFileReference; path = CDViewController.h; sourceTree = "<group>"; };
+		93BD091C150106D10014AA63 /* CDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
 		93BD091D150106D10014AA63 /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
 		93BD0920150106D10014AA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController.xib; sourceTree = "<group>"; };
+		93BD092D150107080014AA63 /* CDRootCharacterNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRootCharacterNode.h; sourceTree = "<group>"; };
+		93BD092E150107080014AA63 /* CDRootCharacterNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRootCharacterNode.m; sourceTree = "<group>"; };
+		93BD092F150107080014AA63 /* CDCharacterNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCharacterNode.h; sourceTree = "<group>"; };
+		93BD0930150107080014AA63 /* CDCharacterNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCharacterNode.m; sourceTree = "<group>"; };
+		93BD0931150107080014AA63 /* CDWordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDWordList.h; sourceTree = "<group>"; };
+		93BD0932150107080014AA63 /* CDWordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDWordList.m; sourceTree = "<group>"; };
+		93BD096E15010B450014AA63 /* word_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word_list.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,8 @@
 		93BD0910150106D10014AA63 /* CDWordListDemo */ = {
 			isa = PBXGroup;
 			children = (
+				93BD0928150106F40014AA63 /* WordLists */,
+				93BD0927150106E30014AA63 /* CDWordList */,
 				93BD0919150106D10014AA63 /* CDAppDelegate.h */,
 				93BD091A150106D10014AA63 /* CDAppDelegate.m */,
 				93BD091C150106D10014AA63 /* CDViewController.h */,
@@ -96,6 +109,27 @@
 				93BD0918150106D10014AA63 /* CDWordListDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93BD0927150106E30014AA63 /* CDWordList */ = {
+			isa = PBXGroup;
+			children = (
+				93BD092D150107080014AA63 /* CDRootCharacterNode.h */,
+				93BD092E150107080014AA63 /* CDRootCharacterNode.m */,
+				93BD092F150107080014AA63 /* CDCharacterNode.h */,
+				93BD0930150107080014AA63 /* CDCharacterNode.m */,
+				93BD0931150107080014AA63 /* CDWordList.h */,
+				93BD0932150107080014AA63 /* CDWordList.m */,
+			);
+			name = CDWordList;
+			sourceTree = "<group>";
+		};
+		93BD0928150106F40014AA63 /* WordLists */ = {
+			isa = PBXGroup;
+			children = (
+				93BD096E15010B450014AA63 /* word_list.txt */,
+			);
+			name = WordLists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +184,7 @@
 			files = (
 				93BD0915150106D10014AA63 /* InfoPlist.strings in Resources */,
 				93BD0921150106D10014AA63 /* CDViewController.xib in Resources */,
+				93BD096F15010B450014AA63 /* word_list.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +198,9 @@
 				93BD0917150106D10014AA63 /* main.m in Sources */,
 				93BD091B150106D10014AA63 /* CDAppDelegate.m in Sources */,
 				93BD091E150106D10014AA63 /* CDViewController.m in Sources */,
+				93BD0933150107080014AA63 /* CDRootCharacterNode.m in Sources */,
+				93BD0934150107080014AA63 /* CDCharacterNode.m in Sources */,
+				93BD0935150107080014AA63 /* CDWordList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

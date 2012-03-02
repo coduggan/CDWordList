@@ -2,8 +2,8 @@
 //  CDAppDelegate.m
 //  CDWordListDemo
 //
-//  Created by Naruto Uzumaki on 12-03-02.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Connor Duggan on 12-03-02.
+//  Copyright (c) 2012 Connor Duggan. All rights reserved.
 //
 
 #import "CDAppDelegate.h"
