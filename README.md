@@ -15,11 +15,11 @@ CDWordList is a prefix trie that loads in a list of words from a file, and can d
 
 **Examples**
 
-  /* Create a CDWordList object from word_list.txt in the main bundle of the app. The included English Open Word List (EOWL) contains about 128k words.
+  //Create a CDWordList object from word_list.txt in the main bundle of the app. The included English Open Word List (EOWL) contains about 128k words.
 
-  CDWordList * wordList = [[CDWordList alloc] initWithFilePath:[[NSBundle mainBundle] pathForResource:@"word_list" ofType:@"txt"]];
+	CDWordList * wordList = [[CDWordList alloc] initWithFilePath:[[NSBundle mainBundle] pathForResource:@"word_list" ofType:@"txt"]];
 
-  [wordList isWord:@"irregardless"]; //returns NO
+	[wordList isWord:@"irregardless"]; //returns NO
 	[wordList isWord:@"regardless"]; //returns YES
 	
 **Word list**
