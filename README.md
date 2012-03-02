@@ -15,7 +15,7 @@ CDWordList is a prefix trie that loads in a list of words from a file, and can d
 
 **Examples**
 
-  //Create a CDWordList object from word_list.txt in the main bundle of the app. The included English Open Word List (EOWL) contains about 128k words.
+  Create a CDWordList object from word_list.txt in the main bundle of the app. The included English Open Word List (EOWL) contains about 128k words.
 
 	CDWordList * wordList = [[CDWordList alloc] initWithFilePath:[[NSBundle mainBundle] pathForResource:@"word_list" ofType:@"txt"]];
 
@@ -26,6 +26,6 @@ CDWordList is a prefix trie that loads in a list of words from a file, and can d
 
 The included word list is the English Open Word List (EOWL).
 
-Copyright © J Ross Beresford 1993-1999. All Rights Reserved. The following restriction is placed on the use of this publication: if the UK Advanced Cryptics Dictionary is used in a software package or redistributed in any form, the copyright notice must be prominently displayed and the text of this document must be included verbatim. There are no other restrictions: I would like to see the list distributed as widely as possible.
+Copyright © J Ross Beresford 1993-1999. All Rights Reserved.
 
 Visit http://dreamsteep.com/projects/53-the-english-open-word-list-eowl.html for more info.
